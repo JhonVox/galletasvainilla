@@ -1,0 +1,198 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Receta de Galletas de Vainilla.">
+    <title>Galletas de Vainilla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        /* General */
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            color: #444;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #ffd1dc;
+            color: #6b4226;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            font-style: italic;
+            color: #6b4226;
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #f28a5f;
+            margin-bottom: 30px;
+        }
+
+        /* Estilos para tablas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #ffd1dc;
+        }
+
+        th {
+            background-color: #f28a5f;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        td {
+            background-color: white;
+            color: #6b4226;
+        }
+
+        /* Estilos para videos */
+        .video-container {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+            border: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #ffd1dc;
+            color: #6b4226;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 50px;
+            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            th, td {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .video-container iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galletas de Vainilla</h1>
+        <p>Ingredientes y Preparación paso a paso</p>
+    </header>
+
+    <div class="container">
+        <h2>Galletas de Vainilla</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ingredientes</th>
+                <th>Preparación</th>
+            </tr>
+            <tr>
+                <td>Galletas de Vainilla</td>
+                <td>
+                    - 100g de mantequilla<br>
+                    - 150g de azúcar<br>
+                    - 1 huevo<br>
+                    - 200g de harina<br>
+                    - 1 cucharadita de extracto de vainilla
+                </td>
+                <td>
+                    1. Precalienta el horno a 180°C.<br>
+                    2. Bate la mantequilla con el azúcar hasta que quede suave.<br>
+                    3. Añade el huevo y la vainilla, y mezcla bien.<br>
+                    4. Agrega la harina y mezcla hasta formar una masa.<br>
+                    5. Forma bolitas, aplánalas y hornéalas por 10-12 minutos.
+                </td>
+            </tr>
+        </table>
+
+        <div class="video-container">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/wT0M5H3AT3E" title="GALLETAS DE VAINILLA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>DALE UN BUEN SABOR A TU PALADAR</p>
+    </footer>
+</body>
+</html>
